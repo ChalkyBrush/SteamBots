@@ -1,0 +1,23 @@
+{
+"Admins":["106304978"],
+"ApiKey":"0F55603311BC60E59E5CBDAB8BD7783F",
+"mainLog": "syslog.log",
+"UseSeparateProcesses": "false",
+"AutoStartAllBots": "true",
+"Bots": [
+        {
+            "Username":"BOT1",
+            "Password":"qazwsx",
+            "DisplayName":"TestBot",
+            "ChatResponse":"Hi there bro",
+            "logFile": "TestBot.log",
+            "BotControlClass": "SteamBot.SimpleUserHandler",
+            "MaximumTradeTime":180,
+            "MaximumActionGap":30,
+            "DisplayNamePrefix":"[AutomatedBot] ",
+            "TradePollingInterval":800,
+            "LogLevel":"Success",
+            "AutoStart": "true"
+        }
+    ]
+}
